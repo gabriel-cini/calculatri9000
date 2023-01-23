@@ -34,7 +34,7 @@ windows=tk.Tk()
 windows.geometry("400x350")
 windows.title("Calculatrice")
 text_resultat=tk.Text(windows, height=2, width=16, font=('Arial',24 ))
-text_resultat.grid(columnspan=5)
+text_resultat.grid(columnspan=6)
 
 #Paramétrage des boutons de la calculette 
 btn_1=tk.Button(windows,text="1", command= lambda: ajout_calcule(1),width=5,font=('Arial',14))
